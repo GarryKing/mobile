@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Mobile Test</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.0.min.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.3.0.min.js"></script>
+
+</head>
+<body>
+<div data-role="page" id="foo">
+    <div data-role="header" data-position="inline" data-backbtn="false">
+        <a href="#" data-icon="delete">Cancel</a>
+        <h1>Edit Contact</h1>
+        <a href="#moo" data-icon="check">MOO</a>
+    </div>
+    <div data-role="content">
+        <div data-role="controlgroup">
+            <a href="#" data-role="button">Yes</a>
+            <a href="#" data-role="button">No</a>
+            <a href="#" data-role="button">Maybe</a>
+        </div>
+        <select name="my-select" data-role="none">
+            <option value="a" >A</option>
+            <option value="b" >B</option>
+            <option value="c" >C</option>
+        </select><br/><br/><br/>
+        <ul data-role="listview" data-inset="true" data-filter="true">
+            <li><a href="#">Acura</a></li>
+            <li><a href="#">Audi</a></li>
+            <li><a href="#">BMW</a></li>
+            <li><a href="#">Cadillac</a></li>
+            <li><a href="#">Ferrari</a></li>
+        </ul>
+        <form>
+            　 <label for="slider-0">Input slider:</label>
+            　 <input type="range" name="slider" id="slider-0" value="25" min="0" max="100" />
+        </form>
+    </div>
+    <div data-role="footer">
+        <h4>Footer Content</h4>
+    </div>
+</div>
+
+
+<div data-role="page" id="moo">
+    <div data-role="header" data-position="inline" data-backbtn="false">
+        <a href="#foo" data-icon="delete">FOO</a>
+        <h1>MOO</h1>
+        <a href="#" data-icon="check">MOO</a>
+    </div>
+    <div data-role="content">
+        <a href="#" data-role="button" data-icon="star">无 data-theme=""</a>
+        <a href="#" data-role="button" data-icon="star" data-theme="a">data-theme="a"</a>
+        <a href="#" data-role="button" data-icon="star" data-theme="b">data-theme="b"</a>
+        <a href="#" data-role="button" data-icon="star" data-theme="c">data-theme="c"</a>
+        <a href="#" data-role="button" data-icon="star" data-theme="d">data-theme="d"</a>
+        <a href="#" data-role="button" data-icon="star" data-theme="e">data-theme="e"</a>
+        <a href="#" data-role="button" data-icon="star" data-theme="f">data-theme="f及以上"</a>
+    </div>
+    <div data-role="footer">
+        <h4>MOO</h4>
+    </div>
+</div>
+
+</body>
+</html>
