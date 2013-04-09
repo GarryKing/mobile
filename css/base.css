@@ -1,0 +1,7 @@
+
+#dialogue{}
+.love{display: inline-block;}
+.love img{width: 45px; border-radius: 10px; background-color: #F5DEB3;}
+.sentence{width: 300px; border-radius: 5px; background-color: #E0FFFF; padding: 10px; display: inline-block; border: 1px solid #00FFFF;}
+#speak{border-top: 1px solid #4b88b6;}
+.send{width: 80px;}
