@@ -1,7 +1,11 @@
 
-#dialogue{}
-.love{display: inline-block;}
-.love img{width: 45px; border-radius: 10px; background-color: #F5DEB3;}
-.sentence{width: 300px; border-radius: 5px; background-color: #E0FFFF; padding: 10px; display: inline-block; border: 1px solid #00FFFF;}
+#dialogue{height: 400px; font-family: "微软雅黑",serif; overflow-y: auto; padding: 0 5px;}
+.words{margin-bottom: 10px;}
+.sentence{max-width: 350px; border-radius: 5px; background-color: #c8e9ed; padding: 10px; display: inline-block; box-shadow: 3px 3px 5px #888888;}
+.date-time{font-size: 10px; color: #696969; padding: 0 10px;}
 #speak{border-top: 1px solid #4b88b6;}
-.send{width: 80px;}
+.right{text-align: right;}
+.right .sentence{background-color: #fff5d1;}
+
+/*.clearfix:after{content:'\20'; display:block; height:0; clear:both;}
+.clearfix{*zoom:1;}*/
